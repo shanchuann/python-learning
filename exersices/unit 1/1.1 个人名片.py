@@ -1,0 +1,13 @@
+# 个人名片
+name = input("What's your name?")
+company = input("What's your company?")
+title = input("What's your title?")
+phone = input("What's your phone number?")
+email = input("What's your email?")
+print("**************************")
+print("Name: " + name)
+print("Company: " + company)
+print("Title: " + title)
+print("Phone: " + phone)
+print("Email: " + email)
+print("**************************")
