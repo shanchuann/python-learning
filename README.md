@@ -17,7 +17,7 @@ name:
 company:
 title:
 phone:
-email
+email：
 ********************************
 ```
 - unit 2 2.1 几个苹果
