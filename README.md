@@ -17,6 +17,7 @@
 - unit 7 异常处理
 - unit 8 函数
 - unit 9 模块
+- unit 10 文件及IO操作
 
 ## Exercises(./exercises)
 
@@ -137,4 +138,7 @@
 3. 数据结构设计
     1. 字典
     2. 列表
+### 日记本(Journal book)
+- unit 10 代码练习,见 unit 10 File and IO operations/code 10.4 Journal book
+- 日记存储在.py文件同级目录(./journal.txt)
 

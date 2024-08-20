@@ -2,5 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/my_package/my_games.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test1.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/unit 10 Files and IO operations/code 10.1 Reading a file.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit 10 Files and IO operations/data.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit 10 Files and IO operations/test.txt" charset="GBK" />
   </component>
 </project>
