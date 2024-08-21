@@ -217,4 +217,8 @@
     - 事件响应方法
   - SessionThread类:父类 threading.Thread
 
-### AI聊天机器人
+
+> 未解决的问题
+> 
+> 服务器端保存聊天记录功能仍未成功实现,保存按钮点击后 rceord.log 文件未生成
+(已完结)
