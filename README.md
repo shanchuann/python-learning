@@ -18,6 +18,8 @@
 - unit 8 函数
 - unit 9 模块
 - unit 10 文件及IO操作
+- unit 11 面向对象程序设计
+- unit 12 界面开发
 
 ## Exercises(./exercises)
 
@@ -141,4 +143,78 @@
 ### 日记本(Journal book)
 - unit 10 代码练习,见 unit 10 File and IO operations/code 10.4 Journal book
 - 日记存储在.py文件同级目录(./journal.txt)
+### 学生管理系统(Student management system)
+- 学生
+  - 姓名,年龄,性别,学号,参与课程
+  - 显示学生信息
+- 老师
+  - 姓名,年龄,性别,工号,是否是导员,班级列表
+  - 显示老师信息
+- 课程
+  - 课名,课程号,学分,老师,性质,课程容量
+  - 显示课程信息
+- 班级
+  - 班级名称,班级号,辅导员,学生列表
+  - 显示班级信息
+- ...
+### 抽奖器(Prize drawing apparatus)
+- 见 unit 12 Interface development/code 12.3 Prize drawing apparatus
+### 简单计算器(Simple calculator)
+- 见 unit 12 Interface development/code 12.4 Simple calculator
 
+## 项目实战(见./Project Practice文件夹)
+### 多人聊天室(Multi-person chat rooms)
+- 客户端
+  - Client类
+    - 父类:wx.Frame
+    - 初始化方法
+      - 实例属性
+        - 客户名:name
+        - 连接状态:isConnented
+        - 套接字:client_socket
+      - 界面
+        - wxPython
+          - 界面设计
+          - 调用父类初始化模板  个人信息  用户名
+          - 创建面板
+          - 创建按钮
+            - 加入聊天室
+            - 离开聊天室
+            - 发送消息
+            - 清空消息
+          - 创建文本框
+            - 聊天窗口:chat_text
+            - 文本编辑器:input_text
+          - 绑定事件
+            - 加入聊天室:connect
+            - 离开聊天室:disconnect
+            - 发送消息:send
+            - 清空消息:reset
+    - 事件响应方法
+      - connect
+        - 创建socket对象
+        - 连接服务器
+        - 发送客户信息
+        - 创建线程接收消息:receive
+      - disconnect
+        - 发送断开连接信息
+        - 设置连接状态:self.isConnected = False
+      - send
+        - 获取输入内容
+        - 发送内容
+        - 清空输入内容
+      - reset
+        - self.input_text.Clear()
+      - receive
+        - 接收消息
+        - 显示消息
+        
+   
+- 服务器
+  - Server类
+    - 父类:wx.Frame
+    - 初始化方法
+    - 事件响应方法
+  - SessionThread类:父类 threading.Thread
+
+### AI聊天机器人
