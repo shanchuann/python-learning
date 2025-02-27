@@ -1,4 +1,13 @@
-# Python 学习记录
+# Python 学习
+
+## 使用方法:
+
+  克隆仓库到本地：
+
+```bash
+git clone https://github.com/shanchuann/python-learning.git
+```
+  浏览文件夹，选择感兴趣的主题或项目进行学习和实践,根据学习进度，尝试修改代码或完成练习。
 
 ## Introduction
 每个单元作为一个章节，包含了详细的 .md 说明文件讲述当前单元的基础知识,并且由其中细分的 .py 文件实现代码运行
